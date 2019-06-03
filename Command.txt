@@ -1,0 +1,6 @@
+//mongodb initial command
+sudo lsof -t -i:27017
+mongod --dbpath="/home/manojraj/data/db"
+
+//node
+node server.js
